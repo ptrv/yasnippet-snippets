@@ -2,6 +2,6 @@
 # name: func
 # key: func
 # --
-func ${1:fun}(${2:args}) {
+func ${1:fun}(${2:args}) ${3:os.error} {
 $0
 }
