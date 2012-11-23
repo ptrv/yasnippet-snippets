@@ -2,5 +2,5 @@
 # name: crypt
 # key: crypt
 # --
--*- mode: org; epa-file-encrypt-to: (“andrea.crotti.0@gmail.com”) -*-
+-*- mode: org; epa-file-encrypt-to: ("${1:email}") -*-
 $0
