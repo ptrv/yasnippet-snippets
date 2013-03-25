@@ -3,6 +3,6 @@
 # key: ir
 # --
 if err != nil {
-    return err
+    ${1:return err}
 }
 $0

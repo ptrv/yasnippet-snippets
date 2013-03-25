@@ -2,6 +2,6 @@
 # name: func
 # key: fum
 # --
-func (self ${1:type}) ${2:funcName}(${3}) ${4:os.Error} {
+func (self ${1:type}) ${2:funcName}($3) ${4:os.Error} {
 	${5:/* code */}
 }
