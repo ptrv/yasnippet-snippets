@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: println
+# key: pr
+# --
+fmt.Println("${1:fmt}"${2:,str})
