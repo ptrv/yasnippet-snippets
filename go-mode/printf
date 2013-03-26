@@ -3,4 +3,3 @@
 # key: pr
 # --
 fmt.Printf("${1:fmt}\n"${2:,str})
-$0
