@@ -2,7 +2,6 @@
 # name: if error
 # key: ir
 # --
-if err != nil {
-    ${1:return err}
+if ${1:err != nil} {
+    ${2:return err}
 }
-$0
