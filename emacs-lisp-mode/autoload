@@ -2,4 +2,4 @@
 #name: autoload
 #key: autoload
 # --
-(autoload 'FUNCNAME$0 "FILENAME" &optional "DOCSTRING" INTERACTIVE TYPE)
+(autoload '${1:AUTOLOAD} "${2:FILENAME}" ${3:"DOCSTRING"} ${4:INTERACTIVE})
