@@ -1,5 +1,6 @@
-# -*- mode: snippet -*-
+# -*- mode:snippet -*-
 # name: const
-# key: c
+# key: const
 # --
-const ${1:NAME} = ${2:0}
+const ${1:name type} = ${2:val}
+$0
