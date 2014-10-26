@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: wcout
+# key: wcout
+# --
+std::wcout << ${1:wstring} $0<< std::endl;
